@@ -1,0 +1,8 @@
+name: dev
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - anaconda
+  - nodejs
+  - python-dotenv

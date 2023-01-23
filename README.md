@@ -14,27 +14,28 @@ Python version 3.9.15 was used to complete this challenge.
 
 ## Installation Guide
 
-No formal installation is necessary beyond the existence of a python environment including jupyter lab. 
-
-If necessary, an appropriate python environment can be created using conda.
+A working python environment is required. The included environmnet.yml file can be used to create a conda environment:
 
 ```
-conda create --name dev anaconda
+conda env create -f environment.yml
+
 ```
 
-Alternatively, if not already instaled pip can be used to install jupyter lab into any existing environment
+
+Alternatively, an existing environment can be used in which case both Jupyter Lab and python-dotenv must be installed. If now already done, both may be installed using pip
 
 ```
 pip install jupyterlab
-```
+pip install python-dotenv
 
-or if using conda as your package manager
-
-``` 
-conda install jupyterlab
 ```
 
 
+In addition, a .env file must be created in the root directory for this project containing the following two items:
+* ALPACA_API_KEY
+* ALPACA_SECRET_KEY
+
+Personal api and secret keys may be obtained from the (Alpaca website)[https://alpaca.markets].
 
 ---
 
