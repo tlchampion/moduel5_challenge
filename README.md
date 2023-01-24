@@ -47,8 +47,7 @@ The included .ipynb file should be opened in Jupyter Lab, which can be started i
 jupyter lab
 ```
 
-Details on using Jupyter Lab are beyond the scope of this project. Please consult the [Jupyter Lab documentation]
-(https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html) for usage details.
+Details on using Jupyter Lab are beyond the scope of this project. Please consult the [Jupyter Lab documentation](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html) for usage details.
 
 ---
 
