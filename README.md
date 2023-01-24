@@ -35,7 +35,7 @@ In addition, a .env file must be created in the root directory for this project 
 * ALPACA_API_KEY
 * ALPACA_SECRET_KEY
 
-Personal api and secret keys may be obtained from the (Alpaca website)[https://alpaca.markets].
+Personal api and secret keys may be obtained from the [Alpaca website](https://alpaca.markets).
 
 ---
 
