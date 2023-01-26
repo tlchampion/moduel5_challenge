@@ -43,7 +43,7 @@ In addition, a .env file must be created in the root directory for this project 
 * ALPACA_API_KEY
 * ALPACA_SECRET_KEY
 
-Personal api and secret keys may be obtained from the (Alpaca website)[https://alpaca.markets].
+Personal api and secret keys may be obtained from the [Alpaca website](https://alpaca.markets).
 
 ---
 
@@ -56,8 +56,7 @@ jupyter lab
 
 ```
 
-Details on using Jupyter Lab are beyond the scope of this project. Please consult the [Jupyter Lab documentation]
-(https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html) for usage details.
+Details on using Jupyter Lab are beyond the scope of this project. Please consult the [Jupyter Lab documentation](https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html) for usage details.
 
 
 ---
