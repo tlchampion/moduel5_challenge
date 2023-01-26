@@ -6,3 +6,4 @@ dependencies:
   - anaconda
   - nodejs
   - python-dotenv
+  - watermark

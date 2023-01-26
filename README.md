@@ -2,6 +2,13 @@
 
 This is the Module 5 Challenge for the FinTech Bootcamp.
 
+The notebook consists of two sections:
+
+* Part 1: A financial planner for emergencies. The user will be able to use this tool to visualize their current savings. The user can then determine if they have enough reserves for an emergency fund.
+
+* Part 2: A financial planner for retirement. This tool will forecast the performance of a retirement portfolio in 30 years. To do this, the tool will make an Alpaca API call via the Alpaca SDK to get historical price data for use in Monte Carlo simulations. The 30 year will then be compared to a more aggressive portfolio on a 10 year timeframe. 
+
+
 ---
 
 ## Technologies
@@ -22,11 +29,12 @@ conda env create -f environment.yml
 ```
 
 
-Alternatively, an existing environment can be used in which case both Jupyter Lab and python-dotenv must be installed. If now already done, both may be installed using pip
+Alternatively, an existing environment can be used in which case both Jupyter Lab and python-dotenv must be installed along with watermark. If now already done, both may be installed using pip
 
 ```
 pip install jupyterlab
 pip install python-dotenv
+pip install watermark
 
 ```
 
@@ -45,10 +53,12 @@ The included .ipynb file should be opened in Jupyter Lab, which can be started i
 
 ```
 jupyter lab
+
 ```
 
 Details on using Jupyter Lab are beyond the scope of this project. Please consult the [Jupyter Lab documentation]
 (https://jupyterlab.readthedocs.io/en/stable/getting_started/overview.html) for usage details.
+
 
 ---
 
